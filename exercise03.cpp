@@ -19,28 +19,28 @@ int main() {
     // 3. Create a variable called box2 of the Box structure type
     
     // int box2Height, box2Width, box2Length;
-    int Height of Box 1, Width of Box 1, Length of box 1;
-    int Height of Box 2, Width of Box 2, Length of Box 2;
+    int HeightofBox1, WidthofBox1, LengthofBox1;
+    int HeightofBox2, WidthofBox2, LengthofBox2;
     int totalVolume;
     
     // 4. Input the height, width, lenght of box1 and box2
     cout << "Enter Box 1 Height : ";
-    cin >> Height of Box 1;
+    cin >> HeightofBox1;
     cout << "Enter Box 1 Width : ";
-    cin >> Width of Box 1;
+    cin >> WidthofBox1;
     cout << "Enter Box 1 Length : ";
-    cin >> Length of Box 1;
+    cin >> LengthofBox1;
     
     cout << "Enter Box 2 Height : ";
-    cin >> Height of Box 2;
+    cin >> HeightofBox2;
     cout << "Enter Box 2 Width : ";
-    cin >> Width of Box 2;
+    cin >> WidthofBox2;
     cout << "Enter Box 2 Length : ";
-    cin >> Length of Box 2;
+    cin >> LengthofBox2;
     
     // 5. Replace the coding below to pass the Box type structure
-    totalVolume = volume(Height of Box 1, Width of Box 1, Length of box 1 )
-             + volume(Height of Box 2, Width of Box 2, Length of Box 2);
+    totalVolume = volume(HeightofBox1, WidthofBox1, LengthofBox1 )
+             + volume(HeightofBox2, WidthofBox2, LengthofBox2);
     
     cout << "Volume of Box is " << totalVolume << endl;
     
